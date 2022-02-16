@@ -5,14 +5,15 @@ A superset of C# that mixed the Lua and C# syntax together.
 # Example
 
 ```lua
-local variable1 = "big fat blueberry balls";
-local variable2 = "balls";
+using System;
 
-fun Start()
+local var1 = "balls";
+
+public static fun Main(local[] args)
 {
-    if variable1 == "big fat blueberry balls" and variable2 == "balls"
+    if var1 == "balls"
     {
-        Console.WriteLine("chicken");
+        Console.WriteLine("Hello World!");
     }
 }
 ```
