@@ -9,7 +9,7 @@ namespace PCL
 {
     class GenerateCode
     {
-        static string template = "public class template : MonoBehaviour\n{\nhere\n}";
+        static string template = "namespace template\n{\nhere\n}";
 
         static void Main(string[] args)
         {
