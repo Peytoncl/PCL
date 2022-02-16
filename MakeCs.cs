@@ -4,7 +4,7 @@ namespace PCL
 {
     public class MakeCs
     {
-        static string[] tokens1 = {"local var", "fun void", "module class"};
+        static string[] tokens1 = {"local var", "fun void", "module class", "&& and"};
         static string[] statements = {"if", "while", "for", "foreach", "do"};
 
         public static string Generate(string script)

@@ -1,6 +1,6 @@
 # PCL
 
-a simple language that compiles into c#, and uses a lot of lua syntax. will be mainly used for unity but plan on adding support for normal c# in the future.
+A superset of C# that mixed the Lua and C# syntax together.
 
 # Example
 
@@ -10,7 +10,7 @@ local variable2 = "balls";
 
 fun Start()
 {
-    if variable1 == "big fat blueberry balls"
+    if variable1 == "big fat blueberry balls" and variable2 == "balls"
     {
         Console.WriteLine("chicken");
     }
