@@ -1,6 +1,6 @@
 # PCL
 
-A superset of C# that mixed the Lua and C# syntax together.
+A superset of C# that mixes the Lua and C# syntax together.
 
 # Example
 
